@@ -30,4 +30,18 @@ format of DNS names which are allotted to resources within a vpc
 private dns name - ip-private-ipv4-address.region.compute.internal
 public dns name - ec2-public-ipv4-address.region.compute.amazonaws.com
 
+Lets look at it by way of illustration : 
+I have a VPC and have created 3 Ec2 instances
+I want to use a custom dns server and have a domain name of myapp.local
+
+So, we create a dhcp options set with following values :
+domain-name = myapp.local
+domain-name-servers = 10.0.0.10
+
+We will associate these dhcp options set at the VPC level so that all resources created within the vpc receives the same settings
+
+
+
+
+
 
