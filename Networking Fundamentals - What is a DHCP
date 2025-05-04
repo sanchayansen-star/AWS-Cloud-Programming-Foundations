@@ -40,6 +40,12 @@ domain-name-servers = 10.0.0.10
 
 We will associate these dhcp options set at the VPC level so that all resources created within the vpc receives the same settings
 
+Architecture View :
+
+references : https://docs.aws.amazon.com/vpc/latest/userguide/DHCPOptionSetConcepts.html
+
+![How resources use DHCO](./dhcp-custom-update-new.png)
+
 
 
 
