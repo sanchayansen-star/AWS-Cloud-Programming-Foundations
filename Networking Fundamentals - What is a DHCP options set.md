@@ -28,6 +28,7 @@ NTP service is time synchronization is important
 format of DNS names which are allotted to resources within a vpc
 
 private dns name - ip-private-ipv4-address.region.compute.internal
+
 public dns name - ec2-public-ipv4-address.region.compute.amazonaws.com
 
 Lets look at it by way of illustration : 
