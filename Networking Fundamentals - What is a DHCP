@@ -44,7 +44,7 @@ Architecture View :
 
 references : https://docs.aws.amazon.com/vpc/latest/userguide/DHCPOptionSetConcepts.html
 
-![How resources use DHCO](./dhcp-custom-update-new.png)
+![How resources use DHCP](https://github.com/sanchayansen-star/AWS-Cloud-Programming-Foundations/blob/main/dhcp-custom-update-new.png?raw=true)
 
 
 
